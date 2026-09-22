@@ -455,7 +455,7 @@ let payloadRunning = false;
                 mark("ALREADY-ROOT", "getuid=" + uid0 + " setuid(0)=" + su0);
                 var m = document.getElementById("msgs");
                 if (m) {
-                    m.innerHTML = "گلدهن در حاضر فعال است...";
+                    m.innerHTML = "گلدهن در حاضر فعال است";
                 }
                 return;
             }

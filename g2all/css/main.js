@@ -111,7 +111,7 @@ async function doJb() {
       load_bin(bin_u8);
     }
 
-    msgs.innerHTML = "گلدهن v2.4b18.12 فعال شد ...";
+    msgs.innerHTML = "گلدهن 2.4.18.12 فعال شد ...";
     logger.info("===END===");
   } catch (e) {
     msgs.innerHTML = "Failed to Load! Restart Your Console ...";

@@ -36,7 +36,7 @@ const lines = [];
 function hostOk() {
     var m = document.getElementById("msgs");
     if (m) {
-        m.innerHTML = "گلدهن v2.4b18.12 فعال شد ...";
+        m.innerHTML = "گلدهن 2.4.18.12 فعال شد";
     }
 }
 
@@ -676,7 +676,7 @@ function makeRpc(worker) {
                 mark("ALREADY-ROOT", "getuid=" + uid0 + " setuid(0)=" + su0);
                 var m = document.getElementById("msgs");
                 if (m) {
-                    m.innerHTML = "گلدهن در حاضر فعال است...";
+                    m.innerHTML = "گلدهن در حاضر فعال است";
                 }
                 return;
             }

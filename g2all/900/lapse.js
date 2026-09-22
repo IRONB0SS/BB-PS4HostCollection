@@ -1695,7 +1695,7 @@ export async function kexploit() {
     }
     
     if (localStorage.ExploitLoaded === "yes" && sessionStorage.ExploitLoaded != "yes") {
-        msgs.innerHTML = "گلدهن در حاضر فعال است...";
+        msgs.innerHTML = "گلدهن در حال فعال است";
         return new Promise(() => {});
     }
  
@@ -1831,7 +1831,7 @@ function runPayload(PLfile) {
 kexploit().then(() => {
 	setTimeout(() => {
 		runPayload("./goldhen_2.4b18.12.bin");
-		msgs.innerHTML = "گلدهن v2.4b18.12 فعال شد ...";
+		msgs.innerHTML = "گلدهن 2.4.18.12 فعال شد";
 	},500);
 }).catch(() => {
     msgs.innerHTML = "Failed to Load! Restart Your Console ...";
