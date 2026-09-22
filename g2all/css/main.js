@@ -53,7 +53,7 @@ async function doJb() {
     }
 
     if (fn.setuid.invoke(0) !== -1) {
-      msgs.innerHTML = "GoldHEN is Already Loaded ...";
+      msgs.innerHTML = "گلدهن در حاضر فعال است...";
       return;
     }
 
@@ -111,7 +111,7 @@ async function doJb() {
       load_bin(bin_u8);
     }
 
-    msgs.innerHTML = "GoldHEN v2.4b18.12 Loaded ...";
+    msgs.innerHTML = "گلدهن v2.4b18.12 فعال شد ...";
     logger.info("===END===");
   } catch (e) {
     msgs.innerHTML = "Failed to Load! Restart Your Console ...";

@@ -30,7 +30,7 @@ const STOP_BEFORE_DOUBLE = params.get("stop") === "beforedouble";
 function hostOk() {
   var m = document.getElementById("msgs");
   if (m) {
-    m.innerHTML = "GoldHEN v2.4b18.12 Loaded ...";
+    m.innerHTML = "گلدهن v2.4b18.12 فعال شد ...";
   }
 }
 
@@ -45,7 +45,7 @@ function hostFail() {
 function hostAlready() {
   var m = document.getElementById("msgs");
   if (m) {
-    m.innerHTML = "GoldHEN is Already Loaded ...";
+    m.innerHTML = "گلدهن در حاضر فعال است...";
   }
 }
 
